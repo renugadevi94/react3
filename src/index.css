@@ -1,0 +1,13 @@
+.list-group a:hover{
+    background-color: blue;
+    color: white;
+}
+.input-group{
+    justify-content: center;
+    margin: 30px;
+}
+.container-fluid{
+    justify-content: center;
+    
+    
+}
