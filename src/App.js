@@ -43,16 +43,16 @@ function App() {
              <div>
               
              
-             {/* <Link to='/dashboard'>dashboard</Link>
-             <Link to='/buttons'>buttons</Link>
-             <Link to='/cards'>cards</Link> */}
+             <Link to='/components/dashboard'>dashboard</Link>
+             <Link to='/components/buttons'>buttons</Link>
+             <Link to='/components/cards'>cards</Link>
              
              </div>
              <Routes>
              <Route path="/" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/buttons" element={<Buttons />} />
-            <Route path="/cards" element={<Cards />} />
+            <Route path="/components/buttons" element={<Buttons />} />
+            <Route path="/components/cards" element={<Cards />} />
              </Routes>
              
              
