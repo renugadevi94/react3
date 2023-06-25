@@ -43,9 +43,9 @@ function App() {
              <div>
               
              
-             <Link to='/components/dashboard'>dashboard</Link>
+             {/* <Link to='/components/dashboard'>dashboard</Link>
              <Link to='/components/buttons'>buttons</Link>
-             <Link to='/components/cards'>cards</Link>
+             <Link to='/components/cards'>cards</Link> */}
              
              </div>
              <Routes>
