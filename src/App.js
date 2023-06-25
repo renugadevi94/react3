@@ -51,8 +51,8 @@ function App() {
              <Routes>
              <Route path="/" element={<Dashboard />} />
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/components/buttons" element={<Buttons />} />
-            <Route path="/components/cards" element={<Cards />} />
+            <Route path="/" element={<Buttons />} />
+            <Route path="/" element={<Cards />} />
              </Routes>
              
              
