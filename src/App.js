@@ -38,17 +38,14 @@ function App() {
      <div id="content-wrapper" className="d-flex flex-column">
        <div id="content">
         <TopBar/>
-        
-        
-       
-         <div className="container-fluid">
+      <div className="container-fluid">
          
              <div>
               
              
-             <Link to='/dashboard'>dashboard</Link>
+             {/* <Link to='/dashboard'>dashboard</Link>
              <Link to='/buttons'>buttons</Link>
-             <Link to='/cards'>cards</Link>
+             <Link to='/cards'>cards</Link> */}
              
              </div>
              <Routes>

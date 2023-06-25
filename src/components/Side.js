@@ -33,7 +33,7 @@ function Side() {
 
             <li className="nav-item">
                 
-                <a className="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
+                <a className="nav-link collapsed" href="/components" data-toggle="collapse" data-target="#collapseTwo"
             aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-fw fa-cog"></i>
             {/* <FontAwesomeIcon icon={faCog}/> */}
@@ -45,7 +45,7 @@ function Side() {
                         <h6 className="collapse-header">Custom Components:</h6>
                         <a className="collapse-item" href="/buttons">Buttons</a>
               
-                        <a className="collapse-item" href="cards">Cards</a>
+                        <a className="collapse-item" href="/cards">Cards</a>
                     </div>
                 </div>
                 
