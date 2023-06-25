@@ -49,10 +49,10 @@ function App() {
              
              </div>
              <Routes>
-             <Route path="/" element={<Dashboard />} />
+             {/* <Route path="/" element={<Dashboard />} /> */}
             <Route path="/dashboard" element={<Dashboard />} />
-            <Route path="/" element={<Buttons />} />
-            <Route path="/" element={<Cards />} />
+            <Route path="/buttons" element={<Buttons />} />
+            <Route path="/cards" element={<Cards />} />
              </Routes>
              
              
