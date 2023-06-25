@@ -47,7 +47,9 @@ function App() {
               
              
              <Link to='/dashboard'>dashboard</Link>
-             <Link to='/tables'>tables</Link>
+             <Link to='/components/buttons'>buttons</Link>
+             <Link to='/components/cards'>cards</Link>
+             
              </div>
              <Routes>
              <Route path="/" element={<Dashboard />} />
