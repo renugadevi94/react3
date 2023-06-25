@@ -43,22 +43,22 @@ function Side() {
                 <div id="collapseTwo"  className="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div className="bg-white py-2 collapse-inner rounded">
                         <h6 className="collapse-header">Custom Components:</h6>
-                        {/* <li className="nav-item active">
-                        <a className="collapse-item" href="/buttons">Buttons</a>
+                        <li className="nav-item active">
+                        {/* <a className="collapse-item" href="/buttons">Buttons</a> */}
                         <Link className="nav-link" to="/buttons">
             <i className="fas fa-fw fa-tachometer-alt" />
             <span>Buttons</span>
           </Link>
 
-          </li> */}
-          <a className="collapse-item" href="/buttons">Buttons</a>
-                        <a className="collapse-item" href="/cards">Cards</a>
-                        {/* <li className="nav-item active"> 
+          </li>
+          {/* <a className="collapse-item" href="/buttons">Buttons</a>
+                        <a className="collapse-item" href="/cards">Cards</a> */}
+                        <li className="nav-item active"> 
                         <Link className="nav-link" to="/cards">
             <i className="fas fa-fw fa-tachometer-alt" />
             <span>Cards</span> 
           </Link>
-          </li>       */}
+          </li>      
           </div>
                 </div>
                 
